@@ -129,37 +129,22 @@ line-height: 19.36px;
 }
 
 .login-with-google{
-    width: 135px;
-    height: 45px;
+    width: 250px;
+    height: 42px;
     background-color: white;
     border-radius: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 font-size: 15px;
 font-weight: 700;
 line-height: 38.69px;
 text-align: left;
 align-items: center;
-    
+    cursor: pointer;
 }
-.login-with-facebook{
-    width: 140px;
-    height: 45PX;
-   margin-left: 20px;
-    background-color: rgb(20, 20, 77);
-    color: #ffffff;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    padding-left: 5px;
-font-size: 15px;
-font-weight: 700;
-line-height: 38.69px;
-align-items: center;
 
-
-    
-}
 
 .text1{
     margin-top: 35px;
