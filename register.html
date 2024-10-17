@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+        </style>
+</head>
+<body>
+    <div class="indexvideo">
+        <video src="./video/2234105_Black_Gravity_1920x1080.mp4" autoplay muted loop></video>
+      </div>
+    
+    <div class="container">
+        <div class="formData">
+        <div class="heading">
+            <h1 >Register</h1>  
+        </div>
+
+        <div class="head-text">
+            <p>Enter your details to register</p>
+        </div>
+
+        <!-- input fields -->
+<form action="#">
+<div class="input-fields">
+    <div class="inputs">
+        <input type="text" id="username" placeholder="Name" required>
+    </div>
+    <div class="inputs">
+        <input type="email" id="userEmail" placeholder="Email Address" required>
+    </div>
+    <div class="inputs">
+        <input type="text" id="userMobileNumber" placeholder="Mobile Number" maxlength="12" minlength="12" required>
+    </div>
+    <div class="inputs">
+        <input type="password" id="userPass" placeholder="Password" minlength="6" required>
+    </div>
+    <div class="inputs">
+        <input type="password" id="conformPass" placeholder="Confirm Password" minlength="6" required>
+    </div>
+    
+</div>
+<div class="checkbox"> 
+    <input type="checkbox" required> <span>I agree with the terms and conditions</span>
+</div>
+
+<!-- buttun -->
+ <div class="login-btn">
+<button onclick="userRegisterData()">Login</button>
+ </div>
+</form>
+ <div class="text2">
+    <p> Need help? Visit our <span>help center</span>  </p>
+ </div>
+</div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

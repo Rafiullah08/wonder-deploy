@@ -1,0 +1,691 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+font-family: "Inknut Antiqua", serif;
+/* overflow-x: hidden; */
+}
+
+
+.container{
+   min-width: 80%;
+   padding: 100px 0;
+
+}
+.indexvideo video{
+    position: fixed;
+    z-index: -1;
+}
+.formData{
+    width: 520px;
+    background-color: #3A3A70;
+    margin: 0 auto;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+}
+
+
+
+.heading h1{
+text-align: center;
+color: #ffffff;
+font-size: 50px;
+font-weight: 700;
+/* line-height: 128.95px; */
+
+}
+
+.heading h3{
+font-size: 43px;
+font-weight: 700;
+/* line-height: 128.95px; */
+text-align: center;
+color: #ffffff;
+
+}
+.heading p{
+
+color: #ffffff;
+gap: 0px;
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+
+}
+.errmessage p{
+color: #FF0000;
+}
+.input-field{
+   margin-top: 55px;
+   text-align: center;
+}
+.input-field input{
+    width: 317.5px;
+    height: 43.6px;
+    border-radius: 10px;
+    border: 0.8px solid #707070;
+    margin-top: 8px;
+padding-left: 14px;
+outline: none;
+color:  #B4B4B4;
+
+}
+
+
+
+.forgot-pass{
+    text-align: end;
+    padding-top: 10px;
+    margin-right: 100px;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+font-size: 10px;
+font-weight: 400;
+line-height: 12.1px;
+
+
+}
+.forgot-pass a{
+color: white;
+text-decoration: none;
+}
+
+.login-btn{
+    text-align: center;
+    margin-top: 30px;
+}
+.login-btn button{
+    width: 317.5px;
+    height: 43.6px;
+    background-color: rgb(20, 20, 77);
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+   cursor: pointer;
+}
+
+
+.login-btn p{
+    margin-top: 35px;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.36px;
+
+
+}
+
+.login-with-social{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.login-with-google{
+    width: 135px;
+    height: 45px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+font-size: 15px;
+font-weight: 700;
+line-height: 38.69px;
+text-align: left;
+align-items: center;
+    
+}
+.login-with-facebook{
+    width: 140px;
+    height: 45PX;
+   margin-left: 20px;
+    background-color: rgb(20, 20, 77);
+    color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 5px;
+font-size: 15px;
+font-weight: 700;
+line-height: 38.69px;
+align-items: center;
+
+
+    
+}
+
+.text1{
+    margin-top: 35px;
+    text-align: center;
+    color: #ffffff;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+
+
+}
+
+.text1 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.text1 span{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+ 
+
+}
+.text2{
+    margin-top: 75px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 20px;
+    
+}
+
+.text2 span{
+    font-family: "Inter", sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 19.36px;
+
+
+}
+
+/* ///registration css */
+
+.invalid-message{
+    text-align: center;
+    color:  #FF0000;
+padding-top: 45px;
+font-weight: 700;
+}
+
+.head-text p{
+    text-align: center;
+    color:  #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.input-fields{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.input-fields input{
+    width: 317.5px;
+    height: 43.6px;
+    border-radius: 10px;
+    border: 0.8px solid #707070;
+    margin-top: 8px;
+padding-left: 14px;
+outline: none;
+font-size: 11px;
+font-weight: 400;
+line-height: 28.37px;
+
+
+}
+.checkbox{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.checkbox input{
+    width: 17px;
+height: 17px;
+gap: 0px;
+border: 1px solid #28284E;
+opacity: 0px;
+
+}
+
+.checkbox span{
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 14.52px;
+text-align: left;
+
+}
+
+
+/* new password sections */
+
+.pssword-container{
+   min-width: 80%;
+z-index: 1;
+padding: 100px 0;
+}
+
+.innerContainer{
+    width: 450px;
+   margin: 0 auto;
+    background-color: #3A3A70;
+    gap: 0px;
+    border-radius: 8px;
+    border-radius: 0px 0px 10px #000000;
+    opacity: 0px;
+}
+
+.newPassInput input{
+    width: 317.5px;
+    height: 43.6;
+    padding-left: 14px;
+    color: #707070;
+}
+
+/* sucess icon */
+
+.sucess-icon{
+    text-align: center;
+    color: #ffffff;
+    font-size: 106px;
+    
+}
+.sucess-pass-text{
+    text-align: center;
+
+}
+.sucess-pass-text h1{
+color: #ffffff;
+font-size: 40px;
+font-weight: 400;
+line-height: 71.32px;
+text-align: center;
+
+}
+.sucess-pass-text p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.53px;
+    text-align: center;
+    
+}
+
+.last-text p{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 26px;
+font-size: 20px;
+font-weight: 400;
+line-height: 51.58px;
+
+
+}
+
+/* reset passs section */
+
+.reset-pass-text h2{
+    text-align: center;
+    font-family: "Inknut Antiqua", serif;
+    color: #ffffff;
+font-size: 33px;
+font-weight: 400;
+line-height: 30px;
+
+
+}
+
+.reset-pass-text p{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+margin-top: 15px;
+}
+
+
+.reset-pass-text h1{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+   
+    
+}
+
+.reset-pass-btn{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.btn1 button{
+    width: 143px;
+height: 43.6px;
+    background-color: rgb(20, 20, 77);
+border-radius: 10px;
+border: none;
+color: #ffffff;
+font-family: "Inter", sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.94px;
+
+
+}
+
+.btn2 button{
+    width: 142px;
+    height: 43.6px;
+    background-color:#ffffff;
+border-radius: 10px;
+border: none;
+color: rgb(20, 20, 77);
+font-family: "Inter", sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.94px;
+}
+
+/* otp section */
+
+.otp-container{
+    min-width: 80%;
+  padding-top: 100px;
+  padding-bottom: 36px;
+   z-index: 1;
+}
+
+.otpInnerContainer{
+    width: 400px;
+   margin: 0 auto;
+    background-color: #3A3A70;
+    gap: 0px;
+    border-radius: 8px;
+    border-radius: 0px 0px 10px #000000;
+    opacity: 0px;
+}
+
+
+
+.otp-text p{
+   
+    color: #ffffff;
+    text-align: center;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+
+}
+
+.otp-number-box{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.box1{
+    width: 55px;
+    height: 55px;
+    background-color: #3A3A70;
+border: 2px solid #916a6a;
+margin-top: 30px;
+
+}
+
+.box1 p{
+    text-align: center;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+font-size: 26px;
+font-weight: 700;
+line-height: 31.47px;
+padding-top: 10px;
+}
+
+.otp-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.otp-btn button{
+    width: 317.5px;
+    height: 43px;
+    background-color: rgb(20, 20, 77);
+border-radius: 10px;
+border: none;
+color: #ffffff;
+font-size: 14px;
+font-weight: 700;
+line-height: 36.11px;
+
+
+}
+
+
+
+/* forgot password section */
+
+
+.forgot-pass-text p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1px;
+    
+}
+
+.forgot-pass-input{
+    text-align: center;
+    margin-top: 40px;
+    line-height: 30px;
+}
+.forgot-pass-input input{
+    width: 317.5px;
+    height: 43.6px;
+    border-radius: 10px;
+    border: 0.8px solid #707070;
+    margin-top: 8px;
+padding-left: 14px ;
+border-radius: 10px;
+border: 0.8px solid #707070;
+padding-left: 14px;
+outline: none;
+}
+.forgot-pass-input p{
+    color: #ffffff;
+    padding-top: 5px;
+}
+.forgt-text h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 100px;
+    
+}
+
+
+/* Registration successfull section
+ */
+ .registration-success-container{
+   min-width: 80%;
+ padding: 100px 0; 
+
+ }
+.RegistrationInnerContainer{
+    width: 470px;
+    height: 540px;
+    background-color: #3A3A70;
+    gap: 0px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+ .heading h2{
+    font-family: Inknut Antiqua;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 72px; 
+text-align: center;
+color: #ffffff;
+padding-top: 20px;
+
+
+ }
+ .success-icon{
+text-align: center;
+font-size: 100px;
+color: #ffffff;
+
+ }
+
+ .success-icon img{
+width: 145px;
+height: 145px;
+color: #ffffff;
+margin-top: 20px;
+
+ }
+
+ 
+
+ 
+ .sucessThumb img{
+    width: 148px;
+    height: 129px;
+    margin-left: 160px;
+    display: flex;
+    justify-content: center;
+ }
+
+
+ /* media query css start */
+
+@media only screen and (max-width: 481px){
+    .formData{
+        width: 320px;
+        background-color: #3A3A70;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    .innerContainer{
+        width: 320px;
+        background-color: #3A3A70;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    .otpInnerContainer {
+        width: 320px;
+
+    }
+    .RegistrationInnerContainer{
+        width: 320px;
+        height: 450px;
+
+    }
+
+    .input-field{
+        margin-top: 15px;
+    }
+        .input-field input {
+            width: 252.5px;
+         
+        }
+        .forgot-pass-input input {
+            width: 252.5px;
+         
+        }
+        .input-fields input {
+            width: 252.5px;
+         
+        }
+        .login-btn button{
+            width: 252.5px;
+
+        }
+        .forgot-pass {
+            text-align: end;
+            margin-right: 41px;
+        }
+        .login-with-google {
+            width: 105px;
+            height: 38px;
+            margin-left: 20px;
+        }
+        .login-with-facebook{
+            width: 110px;
+            height: 38px;
+
+        }
+        .login-btn p {
+            margin-top: 18px;
+        }
+        .login-with-social{
+            margin-top: 20px;
+        }
+        .text1 {
+            margin-top: 7px;
+        }
+        .text2 {
+            margin-top: 38px;
+            padding-bottom: 9px;
+        }
+        .otp-btn button{
+            width: 252px;
+        }
+
+        .checkbox {
+           
+            margin-right: 0px;
+          
+        }
+        .sucessThumb{
+            display: flex;
+            justify-content: center;
+        
+        }
+
+        .heading h2{
+            line-height: 50px !important;
+        }
+     }
+
+
+
+ @media all and (max-width: 481px){
+    h1 {
+        font-size: 26px !important;
+    }
+    h2 {
+        font-size: 26px !important;
+    }
+    h3 {
+        font-size: 26px !important;
+    }
+    p {
+        font-size: 14px !important;
+        line-height: 26px !important;
+    }
+
+ 
+
+} 

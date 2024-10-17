@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desktop</title>
+    <link rel="stylesheet" href="desktop.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap");
+    </style>
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  
+
+  </head>
+  <body>
+    <div class="desktop-container">
+      <div class="sidebar">
+
+
+        <div class="sideBarBody">
+        <!-- sidebar header start -->
+
+        <div class="sidebar-header">
+          <div class="avatar">
+           <a href="./profile.html"> <img class="zoom" src="./images/Ellipse 23.png" alt="avatar" /></a>
+          </div>
+          <div class="avatar-text">
+            <h3>Name</h3>
+            <p>Lorem Ipsum is simply</p>
+          </div>
+          <div class="avatar-icon">
+            <img class="zoom" src="./images/Vector.png" alt="" />
+          </div>
+        </div>
+        <!-- sidebar header end -->
+
+        <!-- sidebar menu start -->
+
+        <div class="menubar" >
+          <div class="menu-head">
+            <h1>Menu</h1>
+          </div>
+          <div class="menubar-list">
+            <ul>
+              <li>
+                <img class="zoom" src="./images/Vector (2).png" alt="" /><a href="./desktop.html">Home <span><img class="zoom" src="./images/Vector (32).png" alt=""></span></a>
+              </li>
+              <li>
+                <img class="zoom" src="./images/Vector (1).png" alt="" /><a href="./feed.html">Feed  <span class="feedArrow"><img class="zoom" src="./images/Vector (32).png" alt=""></span></a>
+              </li>
+              <li>
+                <img class="zoom" src="./images/Vector (4).png" alt="" /><a href="./library.html">Library <span class="libraryArrow" ><img class="zoom" src="./images/Vector (32).png" alt=""></span>
+                </a>
+              </li>
+              <li>
+                <img class="zoom" src="./images/Vector (5).png" alt="" /><a href="./dms.html">DMs <span class="dmsArrow"><img class="zoom" src="./images/Vector (32).png" alt=""></span> </a>
+              </li>
+              <li>
+                <img class="zoom" src="./images/Vector (6).png" alt="" /><a href="./friends.html"
+                  >Friends <span class="friendArrow"><img class="zoom" src="./images/Vector (32).png" alt=""></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+     
+      </div>
+      </div>
+
+      <!--///// sidebar end ///// -->
+<div class="video">
+  <video src="./video/2234105_Black_Gravity_1920x1080.mp4" autoplay muted loop></video>
+</div>
+      <!-- main body start -->
+      <div class="main-body">
+        <div class="navbar">
+          <div class="navbar-list">
+            <ul>
+              <a href="./desktop.html"><li>Home</li></a>
+              <li><img class="zoom" src="./images/Vector.png" alt="" /></li>
+              <li>Lorem</li>
+            </ul>
+          </div>
+
+          <div class="navbar-list"> 
+        <ul>
+                <li><img   class="navbar-image zoom" src="./images/Footer Icons.png" alt="" /></li>
+                <li><img   class="navbar-image zoom" src="./images/Footer Icons (1).png" alt="" /></li>
+                <li><img  class="zoom" src="./images/Footer Icons (2).png" alt="" /></li>
+              </ul>
+          </div>
+        </div>
+        <div class="notification-bar" id="notificationBar">
+          <p>You have new notifications!</p>
+          <ul>
+              <li>Notification 1</li>
+              <li>Notification 2</li>
+              <li>Notification 3</li>
+          </ul>
+      </div>
+        <!-- navbar end -->
+
+       
+       
+  
+          <div class="top-container" id="topconstain" style="display: block;" >
+           <div class="innerTopContainer">
+            <div class="top-container-avatar-left">
+              <img class="zoom" src="./images/Ellipse 23.png" alt="" />
+              <input id="searchInput" type="text" autocomplete="off" placeholder="Influence title">
+              <div class="suggestions" id="suggestionsList"></div>
+            </div>
+  
+            <div class="top-container-avatar-right">
+              <ul>
+                <li class="videoo"><video  id="media"><li><img class="zoom icon"  onclick="openMedia()" src="./images/Group 737.png" alt="" /></li></video></li>
+                
+                <li><img id="recordBtn" class="zoom icon2" src="./images/Group 738.png" alt="" /></li>
+                <li><img class="zoom icon3" src="./images/Vector (8).png" alt="" /></li>
+                <img class="zoom icon4" src="./images/Rectangle 356.png" alt="" />
+                <li><img class="zoom icon5" src="./images/Vector (9).png" alt="" /></li>
+              </ul>
+            </div>
+           </div>
+            
+          </div>
+  
+
+          <!-- post liknk head bar by defoult display non -->
+          <div class="postLikk-head-container " id="infoContains">
+            <div class="post-likk-InnerContain">
+
+                <div class="InputsFlex">
+                    <div class="post-inputs">
+                        <p>Info Contains</p>
+                        <input type="text" placeholder="Influence Text">
+                        <input type="text" placeholder="link to influence">
+    
+                    </div>
+                    <div class="post-inputss">
+                        <p>Dropdown</p>
+                        <select name="" id="">
+                            <option value="">Influence Text</option>
+                        </select>
+                       <div class="uploadImg">
+                        <input type="text" placeholder="Add image">
+                        <img class="zoom" src="./images/Vector (25).png" alt="">
+                       </div>
+                    </div>
+                </div>
+
+                <div class="infoContains"  >
+                    <h1>Info Contains <span><img class="zoom" src="./images/Rectangle 386.png" alt=""></span></h1>
+                    <div class="infoInnerContains">
+                        <textarea name="infoContains"> Why is this Influence meaningful to you?  Why would others want to experience it?</textarea>
+                    <div class="infoContainIcons">
+                        <ul>
+                            <li><img class="zoom icon6" src="./images/Group 737.png" alt=""></li>
+                            <li><img class="zoom icon7" src="./images/Group 738.png" alt=""></li>
+                            <li><img class="zoom icon8" src="./images/Vector (27).png" alt=""></li>
+                            <li><img class="zoom icon9" src="./images/Rectangle 357.png" alt=""></li>
+                            <li><img class="zoom icon10" src="./images/Vector (28).png" alt=""></li>
+
+
+
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            
+          </div>
+          <!-- cantainer card section start -->
+  
+          <div class="cards">  
+              
+              <div class="left-card">
+                  <div class="left-card-ava">
+                    <div class="left-card-avatar">
+                      <img class="zoom" src="./images/Ellipse 23.png" alt="avatar" />
+                    </div>
+                    <div class="left-card-text">
+                      <p>Name <sup>1h ago</sup></p>
+                    </div>
+                 </div>
+                  <!-- inner card section -->
+                  
+                  <div class="innerCard">
+                    <!-- ///inner text -->
+                  <div class="innerCard-text">
+                    <h3>Influence Name</h3>
+                    <p>Duis aute irure dolor in reprehender</p>
+                  </div>
+                  <div class="innerCard-text">
+                    <h3>Influence creator</h3>
+                    <p>Duis aute irure dolor in reprehender</p>
+                  </div>
+                  <div class="innerCard-text">
+                    <h3>Influence Type</h3>
+                    <p>Duis aute irure dolor in reprehender</p>
+                  </div>
+                  <!-- inner text end -->
+  
+  
+  <!-- inner image and icons -->
+  <div class="imageSec">
+  <div class="innerImg">
+    <img  src="./images/card mg 1.png" alt="">
+  </div>
+  <div class="innerIcons">
+    <ul>
+      <li><img class="zoom" src="./images/Vector (10).png" alt=""></li>
+      <li><img class="zoom" src="./images/Vector (11).png" alt=""></li>
+      <li><img class="zoom" src="./images/Vector (Stroke) (Stroke).png" alt=""></li>
+    <li> <img class="zoom" src="./images/Massage.png" alt=""></li>
+    <li><img class="zoom" src="./images/Share.png" alt=""></li>
+    </ul>
+  
+  </div>
+  </div>
+  <!-- inner image and icons end -->
+  
+  <div class="card-foot-text">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem   <span>Read more.</span>  </p>
+  </div>
+  <div class="innerCard-text">
+    <h3>Influence Name</h3>
+    <p>Duis aute irure dolor in reprehender</p>
+  </div>
+  
+  <!-- inner card footer -->
+  
+  <div class="cardFooter">
+    <div class="foot-left">
+      <input type="text" placeholder="Influence Text">
+
+    </div>
+    <div class="foot-right">
+      <ul>
+        <li><img class="zoom" src="./images/foot1.png" alt=""></li>
+        <li><img class="zoom" src="./images/foot2.png" alt=""></li>
+        <li><img class="zoom" src="./images/foot3.png" alt=""></li>
+        <li><img class="zoom" src="./images/foot4.png" alt=""></li>
+  
+      </ul>
+    </div>
+  
+  </div>
+  <div class="post-dots">
+    <img class="zoom" src="./images/Post Dots.png" alt="">
+  </div>
+  </div>
+  
+  <!-- //innerCard end -->
+  
+             </div>
+        
+                <!-- right side card -->
+                
+                <div class="left-card">
+                  <div class="left-card-ava">
+                  <div class="left-card-avatar">
+                    <img class="zoom" src="./images/Ellipse 23.png" alt="avatar" />
+                  </div>
+                  <div class="left-card-text">
+                    <p>Name <sup>1h ago</sup></p>
+                  </div>
+                </div>
+                <!-- inner card section -->
+                
+                <div class="innerCard">
+                <!-- ///inner text -->
+                <div class="innerCard-text">
+                <h3>Influence Name</h3>
+                <p>Duis aute irure dolor in reprehender</p>
+                </div>
+                <div class="innerCard-text">
+                <h3>Influence creator</h3>
+                <p>Duis aute irure dolor in reprehender</p>
+                </div>
+                <div class="innerCard-text">
+                <h3>Influence Type</h3>
+                <p>Duis aute irure dolor in reprehender</p>
+                </div>
+                <!-- inner text end -->
+                
+                
+                <!-- inner image and icons -->
+                <div class="imageSec">
+                <div class="innerImg">
+                <img  src="./images/right card img.png" alt="image">
+                </div>
+                <div class="innerIcons">
+                <ul>
+                <li><img class="zoom" src="./images/Vector (10).png" alt=""></li>
+                <li><img class="zoom" src="./images/Vector (11).png" alt=""></li>
+                <li class="strokeIcons"><img class="zoom" src="./images/Vector (Stroke) (Stroke).png" alt=""></li>
+                <li> <img  class="messageIcons zoom"  src="./images/Massage.png" alt=""></li>
+                <li><img class="zoom" src="./images/Share.png" alt=""></li>
+                </ul>
+                
+                </div>
+                </div>
+                <!-- inner image and icons end -->
+                
+                <div class="card-foot-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem   <span>Read more.</span>  </p>
+                </div>
+                <div class="innerCard-text">
+                <h3>Influence Name</h3>
+                <p>Duis aute irure dolor in reprehender</p>
+                </div>
+                
+                <!-- inner card footer -->
+                
+                <div class="cardFooter">
+                <div class="foot-left">
+                  <input type="text" placeholder="Influence Text">
+
+                </div>
+                <div class="foot-right">
+                <ul>
+                <li><img class="zoom" src="./images/foot1.png" alt=""></li>
+                <li><img  class="zoom" src="./images/foot2.png" alt=""></li>
+                <li><img class="zoom" src="./images/foot3.png" alt=""></li>
+                <li><img class="zoom" src="./images/foot4.png" alt=""></li>
+                </ul>
+                </div>
+                
+                </div>
+                <div class="post-dots">
+                  <img class="zoom" src="./images/Post Dots.png" alt="">
+                </div>
+                </div>
+                
+                <!-- //innerCard end -->
+                
+                </div>
+  
+        
+          </div>
+  
+  
+  
+      <!-- lower card section -->
+      <div class="cards">
+        <!-- lower right side card -->
+          <div class="lower-left-card">
+          
+            <div class="lower-innerCard">
+            <!-- avatar -->
+            <div class="left-card-ava">
+              <div class="left-card-avatar">
+                <img class="zoom" src="./images/Ellipse 23.png" alt="avatar" />
+              </div>
+              <div class="left-card-text">
+                <p>Name <sup>1h ago</sup></p>
+              </div>
+            </div>
+            <!-- 1 -->
+            <div class="lowerCardText">
+              <h4>Influence Name</h4>
+              <p>Duis aute irure dolor in reprehender</p>
+            </div>
+            <!-- 2 -->
+            <div class="lowerCardText">
+              <h4>Influence Creator</h4>
+              <p>Duis aute irure dolor in reprehender</p>
+            </div>
+            <!-- 3 -->
+            <div class="lowerCardText">
+              <h4>Influence Type</h4>
+              <p>Duis aute irure dolor in reprehender</p>
+            </div>
+            
+            <div class="lower-imageSec">
+              <div class="lowerInnerImg">
+               <p>Lorem Ipsum is simply dummy text of the printing and 
+                typesetting industry. Lorem Ipsum has been the industry's 
+                standard dummy text ever since the 1500s, when an unknown printer
+                 took a galley of type and scrambled it to make a 
+                type specimen book. Lorem Ipsum is simply dummy text of the printing and</p>
+              </div>
+              <div class="lower-innerIcons">
+                <ul>
+                  <li><img class="zoom" src="./images/Vector (10).png" alt=""></li>
+                  <li><img class="zoom" src="./images/Vector (11).png" alt=""></li>
+                  <li><img class="zoom" src="./images/Vector (Stroke) (Stroke).png" alt=""></li>
+                <li> <img class="zoom" src="./images/Massage.png" alt=""></li>
+                <li><img class="zoom" src="./images/Share.png" alt=""></li>
+                </ul>
+              </div>
+              </div>
+              <!-- img sec end -->
+              <div class="lowerCardText">
+                <h4>Influence Creator</h4>
+                <p>Duis aute irure dolor in reprehender</p>
+              </div>
+            <!-- img section end -->
+             <div class="lowerCardFooter">
+            <div class="cardFooter">
+              <div class="foot-left">
+                <input type="text" placeholder="Influence Text">
+
+              </div>
+              <div class="foot-right">
+                <ul>
+                  <li><img class="zoom" src="./images/foot1.png" alt=""></li>
+                  <li><img class="zoom" src="./images/foot2.png" alt=""></li>
+                  <li><img class="zoom" src="./images/foot3.png" alt=""></li>
+                  <li><img class="zoom" src="./images/foot4.png" alt=""></li>
+            
+                </ul>
+              </div>
+            
+            </div>
+            <div class="post-dots">
+              <img class="zoom" src="./images/Post Dots.png" alt="">
+            </div>
+            </div>
+            </div>
+                  </div>
+  
+                  <!-- card 2 -->
+                  <div class="lower-left-card">
+            
+                    <div class="lower-innerCard">
+                    <!-- avatar -->
+                    <div class="left-card-ava">
+                      <div class="left-card-avatar">
+                        <img class="zoom" src="./images/Ellipse 23.png" alt="avatar" />
+                      </div>
+                      <div class="left-card-text">
+                        <p>Name <sup>1h ago</sup></p>
+                      </div>
+                    </div>
+                    <!-- 1 -->
+                    <div class="lowerCardText">
+                      <h4>Influence Name</h4>
+                      <p>Duis aute irure dolor in reprehender</p>
+                    </div>
+                    <!-- 2 -->
+                    <div class="lowerCardText">
+                      <h4>Influence Creator</h4>
+                      <p>Duis aute irure dolor in reprehender</p>
+                    </div>
+                    <!-- 3 -->
+                    <div class="lowerCardText">
+                      <h4>Influence Type</h4>
+                      <p>Duis aute irure dolor in reprehender</p>
+                    </div>
+                    
+                    <div class="lower-imageSec">
+                      <div class="lowerInnerImg">
+                       <p>Lorem Ipsum is simply dummy text of the printing and 
+                        typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer
+                         took a galley of type and scrambled it to make a 
+                        type specimen book. Lorem Ipsum is simply dummy text of the printing and</p>
+                      </div>
+                      <div class="lower-innerIcons">
+                        <ul>
+                          <li><img class="zoom" src="./images/Vector (10).png" alt=""></li>
+                          <li><img class="zoom" src="./images/Vector (11).png" alt=""></li>
+                          <li><img class="zoom" src="./images/Vector (Stroke) (Stroke).png" alt=""></li>
+                        <li> <img class="zoom" src="./images/Massage.png" alt=""></li>
+                        <li><img class="zoom" src="./images/Share.png" alt=""></li>
+                        </ul>
+                      </div>
+                      </div>
+                      <!-- img sec end -->
+                      <div class="lowerCardText">
+                        <h4>Influence Creator</h4>
+                        <p>Duis aute irure dolor in reprehender</p>
+                      </div>
+                    <!-- img section end -->
+                     <div class="lowerCardFooter">
+                    <div class="cardFooter">
+                      <div class="foot-left">
+                        <input type="text" placeholder="Influence Text">
+                      </div>
+                      <div class="foot-right">
+                        <ul>
+                          <li><img class="zoom" src="./images/foot1.png" alt=""></li>
+                          <li><img class="zoom" src="./images/foot2.png" alt=""></li>
+                          <li><img class="zoom" src="./images/foot3.png" alt=""></li>
+                          <li><img class="zoom" src="./images/foot4.png" alt=""></li>
+                    
+                        </ul>
+                      </div>
+                    
+                    </div>
+                    <div class="post-dots">
+                      <img class="zoom" src="./images/Post Dots.png" alt="">
+                    </div>
+                    </div>
+                    </div>
+                          </div> 
+       
+        
+  
+      </div>
+        
+     <!-- right sidebar start -->
+      <div class="rightSidebar">
+
+        <div class="topRightContainer">
+          <div class="firstContain">
+<div class="firstContainLeftPara">
+  <h3>LOREM ISPUM</h3>
+</div>
+<div class="firstContainLeftPara">
+  <p>LOREM <span><img class="zoom" src="./images/rightArrow.png" alt=""></span></p>
+</div>
+
+          </div>
+        <div class="sideBarInnerImg">
+          <img src="./images/electronic college.png" alt="">
+        </div>
+        <div class="cardFootPara">
+          <h3>LOREM ISPUM</h3>
+  <p><img class="zoom" src="./images/Group 750.png" alt=""></p>
+
+        </div>
+        </div>
+
+        <!-- right side bar head -->
+
+        <div class="rightSideBarHead">
+          <h3>FRIENDS</h3>
+          <p>LOREM <span><img class="zoom" src="./images/rightArrow.png" alt=""></span></p>
+        </div>
+
+        <div class="friendContainer">
+          <div class="friendAvatar">
+            <img class="zoom" src="./images/friend1.png" alt="">
+            <div class="freindName">
+              <div>
+                <h2>Name</h2>
+              <p>Lorem Ipsum is simply dummy</p>
+              </div>
+              <div>
+                <img class="zoom" src="./images/circle stroke.png" alt="">
+              
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 2
+          -->
+          <div class="friendContainer">
+            <div class="friendAvatar">
+              <img class="zoom" src="./images/friend2.png" alt="">
+              <div class="freindName">
+                <div>
+                  <h2>Name</h2>
+                <p>Lorem Ipsum is simply dummy</p>
+                </div>
+                <div>
+                  <img class="zoom" src="./images/circle stroke.png" alt="">
+                
+  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="friendContainer">
+            <div class="friendAvatar">
+              <img class="zoom" src="./images/friend3.png" alt="">
+              <div class="freindName">
+                <div>
+                  <h2>Name</h2>
+                <p>Lorem Ipsum is simply dummy</p>
+                </div>
+                <div>
+                  <img class="zoom" src="./images/circle stroke.png" alt="">
+                
+  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="friendContainer">
+            <div class="friendAvatar">
+              <img class="zoom" src="./images/friend4.png" alt="">
+              <div class="freindName">
+                <div>
+                  <h2>Name</h2>
+                <p>Lorem Ipsum is simply dummy</p>
+                </div>
+                <div>
+                  <img class="zoom" src="./images/circle stroke.png" alt="">
+                
+  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="friendContainer">
+            <div class="friendAvatar">
+              <img class="zoom" src="./images/friend5.png" alt="">
+              <div class="freindName">
+                <div>
+                  <h2>Name</h2>
+                <p>Lorem Ipsum is simply dummy</p>
+                </div>
+                <div>
+                  <img class="zoom" src="./images/circle stroke.png" alt="">
+                
+  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 6 -->
+          <div class="friendContainer">
+            <div class="friendAvatar">
+              <img class="zoom" src="./images/friend6.png" alt="">
+              <div class="freindName">
+                <div>
+                  <h2>Name</h2>
+                <p>Lorem Ipsum is simply dummy</p>
+                </div>
+                <div>
+                  <img class="zoom" src="./images/circle stroke.png" alt="">
+                
+  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 7 -->
+          <div class="friendContainer">
+            <div class="friendAvatar">
+              <img class="zoom" src="./images/friend7.png" alt="">
+              <div class="freindName">
+                <div>
+                  <h2>Name</h2>
+                <p>Lorem Ipsum is simply dummy</p>
+                </div>
+                <div>
+                  <img class="zoom" src="./images/circle stroke.png" alt="">
+                
+  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 8 -->
+          <div class="friendContainer">
+            <div class="friendAvatar">
+              <img class="zoom" src="./images/friend8.png" alt="">
+              <div class="freindName">
+                <div>
+                  <h2>Name</h2>
+                <p>Lorem Ipsum is simply dummy</p>
+                </div>
+                <div>
+                  <img class="zoom" src="./images/circle stroke.png" alt="">
+                
+  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 9 -->
+          <div class="friendContainer">
+            <div class="friendAvatar">
+              <img class="zoom" src="./images/friend9.png" alt="">
+              <div class="freindName">
+                <div>
+                  <h2>Name</h2>
+                <p>Lorem Ipsum is simply dummy</p>
+                </div>
+                <div>
+                  <img class="zoom" src="./images/circle stroke.png" alt="">
+                
+  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 10 -->
+          <div class="friendContainer">
+            <div class="friendAvatar">
+              <img class="zoom" src="./images/friend10.png" alt="">
+              <div class="freindName">
+                <div>
+                  <h2>Name</h2>
+                <p>Lorem Ipsum is simply dummy</p>
+                </div>
+                <div>
+                  <img class="zoom" src="./images/circle stroke.png" alt="">
+                
+  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 11 -->
+          <div class="friendContainer">
+            <div class="friendAvatar">
+              <img class="zoom" src="./images/friend11.png" alt="">
+              <div class="freindName">
+                <div>
+                  <h2>Name</h2>
+                <p>Lorem Ipsum is simply dummy</p>
+                </div>
+                <div>
+                  <img class="zoom" src="./images/circle stroke.png" alt="">
+                
+  
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        <!-- //right sidebar section end -->
+      </div>
+    
+    </div>
+    
+  </body>
+  <script src="app.js"></script>
+</html>

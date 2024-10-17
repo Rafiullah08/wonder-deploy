@@ -1,0 +1,3762 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Inknut Antiqua", serif;
+}
+
+.suggestions {
+    position: absolute;
+    top: 190px;
+    background: white;
+    /* border: 1px solid #ccc; */
+    width: 50%;
+    z-index: 1;
+}
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+}
+.suggestion-item:hover {
+    background-color: #f1f1f1;
+}
+
+.desktop-container{
+    display: flex;
+}
+.sidebar{
+    width: 20%;
+    height: 1550px;
+    background-color: #3A3A70;
+    padding-top: 35px;
+}
+.sidebar-header{
+    width: 206px;
+    height: 53px;
+    background-color: rgb(20, 20, 77);
+display: flex;
+justify-content: start;
+align-items: center;
+    border-radius: 5px;
+}
+
+
+.sidebar-header .avatartop img{
+    width: 30px;
+    height: 30px;
+    margin : 15px 14px
+
+}
+
+.avatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: wheat;
+    margin : 15px 14px
+    
+}
+.avatar img{
+    width: 35px;
+    height: 35px;
+}
+.avatar-text{
+    margin-top: 3px;
+    color: #ffffff;
+line-height: 20px;
+font-size: 12px;
+}
+
+.avatar-text h3{
+    font-family: "Inknut Antiqua", serif;
+font-size: 7px;
+font-weight: 600;
+line-height: 8.05px;
+
+
+}
+.avatar-text p{
+    font-family: "Inknut Antiqua", serif;
+   
+    font-size: 5px;
+    font-weight: 400;
+    line-height: 12.9px;
+    text-align: left;
+    
+
+}
+.avatar-icon img{ 
+    margin: 22px 35px;
+    padding-top: 13px;
+}
+
+.icon {
+    width: 15.8px;
+    height: 15.6px;
+}
+.icon2 {
+    width: 11.38px;
+    height: 14.8px;
+    
+}
+.icon3 {
+    width: 15.8px;
+height: 13.87px;
+}
+.icon4{
+    width: 3px;
+height: 38px;
+}
+.icon5{
+    width: 15px;
+height: 16.95px;
+}
+.icon6 {
+    width: 10.58px;
+height: 9.4px;
+
+}
+.icon7{
+    width: 6.71px;
+height: 10.58px;
+
+}
+.icon8{
+    width: 10.58px;
+height: 7.05px;
+}
+.icon9{
+    width: 2px;
+height: 19px;
+}
+.icon10{
+    width: 10px;
+height: 11px;
+}
+/* sidbar menu portion srart */
+.menubar{
+    
+    margin: 30px 20px;
+}
+.menu-head h1{
+    color: #ffffff;
+    font-family: "Inknut Antiqua", serif;  
+font-size: 15px;
+font-weight: 400;
+line-height: 38.69px;
+text-align: left;
+text-transform: uppercase;
+
+
+margin-left: 57px;
+}
+.menubar-list ul li{
+    list-style: none;
+    font-family: "Inknut Antiqua", serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 51.58px;
+text-align: left;
+margin-left: 10px;
+margin-top: 20px;
+}
+.menubar-list ul a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+
+.menubar-list ul li img{
+    color: #ffffff;
+    font-size: 26px;
+    width: 27.44px;
+height: 25.41px;
+gap: 0px;
+opacity: 0px;
+
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+}
+.menubar-list ul li span img{
+    margin-left: 70px;
+    width: 8px;
+height: 10px;
+}
+.feedArrow{
+    margin-left: 15px;
+}
+.libraryArrow {
+    margin-left: -15px;
+
+}
+
+.friendArrow{
+    margin-left: -18px;
+}
+
+.dmsArrow{
+    margin-left: 16px;
+}
+/* sidebar end */
+
+/* main body portion start */
+
+.video video{
+    position: fixed;
+    width: auto;
+height: auto;
+
+}
+.main-body{
+    width: 80%;
+    z-index: 1;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 27px;
+  
+}
+.navbar-list ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    color: #ffffff;
+    font-family: Inknut Antiqua;
+font-size: 8px;
+font-weight: 800;
+line-height: 20.63px;
+}
+.navbar-list a{
+    color: #ffffff;
+}
+.notification-bar {
+    width: 170px;
+    display: none; /* Hidden by default */
+    background-color: #3A3A70;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 75px; /* Adjust based on your layout */
+    right: 10px; /* Adjust based on your layout */
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+   
+}
+.notification-bar p{
+    line-height: 30px;
+}
+.notification-bar ul li{
+    list-style: none;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+/* top-container start */
+
+.top-container{
+    border: 20px solid #3A3A70 ;
+    width: 67%;
+    height: 87px;
+    margin-left: 55px;
+    margin-top: 7px;
+    border-radius: 14px;
+background-color:#3A3A70 ;
+
+}
+
+.innerTopContainer{
+    height: 50px;
+    background-color: rgb(20, 20, 77);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 5px;
+border-radius: 14px;
+
+}
+
+.top-container-avatar-left{
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    align-items: center;
+
+}
+.top-container-avatar-left img{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.top-container-avatar-left input{
+    height: 20px;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12.1px;
+    background-color: rgb(20, 20, 77);
+   border: none;
+   outline: none;
+  
+}
+.top-container-avatar-right{
+    margin-right: 20px;
+    
+}
+.top-container-avatar-right ul{
+    display: flex;
+    gap: 16px;
+justify-content: center;
+align-items: center;
+padding-bottom: 5px;
+
+
+}
+
+.top-container-avatar-right ul li{
+    list-style: none;
+    font-size: 25px;
+}
+.zoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+    transition-delay: 0.2s;
+    cursor: pointer;
+  }
+  .videoo{
+    z-index: 1;
+  }
+
+  
+
+
+/* cards section start */
+
+.cards{
+    width: 67%;
+    height: 538px;
+    margin-left: 55px;
+    display: flex;
+    gap: 30px;
+}
+
+.left-card{
+    width: 383px;
+    height: 490px;
+    background-color: #3A3A70;
+    border-radius: 5px;
+    margin-top: 20px;
+
+
+}
+.left-card-ava{
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+    color: #ffffff;
+    padding-left: 14px;
+    padding-top: 5px;
+
+}
+
+.left-card-avatar img{
+    width: 20px;
+    height: 20px;
+}
+
+.left-card-text p{
+    font-family: "Inter", sans-serif;
+font-size: 10px;
+font-weight: 400;
+line-height: 12.1px;
+padding-top: 12px;
+
+}
+.left-card-text sup{
+    font-family: "Inter", sans-serif;
+font-size: 5px;
+font-weight: 400;
+line-height: 6.05px;
+}
+
+/*/// inner-card ///*/
+
+.innerCard{
+    width: 80%;
+    height: 426px;
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-right: 10px;
+    background-color: rgb(20, 20, 77);
+    border-radius: 8px;
+    position: relative;
+}
+
+
+.innerCard-text{
+    padding: 5px 10px;
+    
+font-size: 12px;
+}
+.innerCard-text h3{
+    color:  #008DDD; 
+font-size: 10px;
+font-weight: 400;
+line-height: 20.79px;
+text-align: left;
+}
+.innerCard-text p{
+    color: #ffffff;
+font-size: 7px;
+font-weight: 300;
+line-height: 1px;
+text-align: left;
+ 
+
+}
+/* imageSec */
+.imageSec{
+    width: 100%;
+    height: 182px;
+    display: flex;
+    /* gap: 10px; */
+    margin-top: 10px;
+}
+
+
+.innerImg {
+    width: 92%;
+    height: 100%;
+}
+.innerImg img{
+    width: 90%;
+    height: 100%
+}
+.innerIcons {
+    width: 8%;
+    height: 100%;
+    
+}
+
+.innerIcons ul li{
+   list-style: none;
+   text-align: center;
+display: flex;
+align-items: center;
+flex-direction: column;
+margin-right: 20px;
+padding-top: 13px;
+
+}
+
+ 
+ 
+/* card-foot-text */
+
+.card-foot-text{
+    padding: 10px 10px;
+    font-family: "Inknut Antiqua", serif;
+    line-height: 14px;
+    font-weight: 100;
+    font-size: 8px;
+}
+.card-foot-text p{
+    color: #ffffff;
+font-size: 8px;
+font-weight: 400;
+line-height: 13px;
+text-align: left;
+
+}
+.card-foot-text span{
+    color: #d8bebe;  
+font-size: 8px;
+font-weight: 400;
+line-height: 13px;
+text-align: left;
+
+}
+
+/* cardFooter */
+.cardFooter{
+    width: 100%;
+    height: 30px;
+    background-color: #3A3A70;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.foot-left{
+    padding-left: 20px;
+    font-size: 12px;
+    color: #82828282;
+    font-family: "Inter", sans-serif;
+font-size: 10px;
+font-weight: 400;
+line-height: 12.1px;
+
+}
+
+.foot-left input{
+    background-color: #3A3A70;
+    border: none;
+    outline: none;
+    height: 25px;
+    width: 170px;
+    color: #ffffff;
+}
+
+
+.foot-right ul{
+    display: flex;
+    gap: 12px;
+    margin-right: 13px;
+
+}
+.foot-right ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* post-dots */
+
+.post-dots{
+    position: absolute;
+    top: -5px;
+    right: 5px;
+}
+
+/* cards section end */
+
+
+/* lower card section */
+
+.lower-left-card{
+    width: 383px;
+    height: 550px;
+    background-color: #3A3A70;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.lower-innerCard{
+    width: 80%;
+    height: 488px;
+    margin-top: 30px;
+    margin-left: 35px;
+    margin-right: 10px;
+    border-radius: 8px;
+    position: relative;
+    background-color: rgb(20, 20, 77);
+    padding-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+   
+}
+.lowerCardText{
+    background-color: #3A3A70;
+padding-left: 12px;
+height: 45px;
+margin-top: 10px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.lowerCardText h4{
+    color:  #008DDD; 
+font-size: 12px;
+font-weight: 400;
+line-height: 30.95px;
+text-align: left;
+
+}
+.lowerCardText p{
+color: #ffffff;
+font-size: 9px;
+font-weight: 300;
+line-height: 1px;
+text-align: left;
+
+}
+
+.lower-imageSec{
+    width: 279.58px;
+height: 154px;
+display: flex;
+gap: 8px;
+padding: 10px;
+
+}
+
+.lowerInnerImg{
+    color: #ffffff;
+    font-family: "Inknut Antiqua", serif;
+    padding-left: 8px;
+    padding-top: 8px;
+font-size: 8px;
+font-weight: 400;
+line-height: 16px;
+text-align: justify;
+width: 238px;
+    height: 110px ;
+}
+
+.lower-innerIcons{
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+  object-fit: contain;
+ 
+}
+
+.lower-innerIcons ul{
+    padding-top: 5px;
+}
+.lower-innerIcons ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+
+
+/* .lower-innerIcons u */
+
+.lowerCardFooter{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+
+
+/* .rightSidebar start */
+
+.rightSidebar{
+    width: 250px;
+    height: 100px;
+    margin-top: 20px;
+    position: absolute;
+    top: 93px;
+    right: 25px;
+
+}
+
+.friendss {
+    width: 250px;
+    height: 100px;
+    position: absolute !important;
+    top: 113px !important;
+    right: 25px;
+}
+.topRightContainer{
+    width: 250px;
+    border-radius: 10px;
+    background-color: #3A3A70;
+}
+.firstContain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding-top: 15px;
+padding-left: 25px;
+padding-right: 23px;
+color: #ffffff;
+}
+.firstContainLeftPara h3{
+font-size: 9px;
+font-weight: 400;
+line-height: 23.21px;
+text-align: left;
+font-family: "Inknut Antiqua", serif;
+}
+
+.firstContainLeftPara p{
+font-size: 5px;
+font-weight: 400;
+line-height: 12.9px;
+text-align: left;
+
+}
+.firstContainLeftPara img{
+    width: 5px;
+height: 5.83px;
+padding-top: 3px;
+}
+
+
+.cardFootPara{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 28px;
+    padding-right: 28px;
+    font-family: "Inknut Antiqua", serif;
+line-height: 18px;
+font-weight: 100;
+font-size: 9px;
+color: #ffffff;
+}
+
+
+/* rightSideBarHead */
+
+.rightSideBarHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 55px;
+    margin-top: 40px;
+    color: #ffffff;
+
+}
+
+.rightSideBarHead h3{
+    font-family: "Inknut Antiqua", serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 1.69px;
+text-align: left;
+
+}
+.rightSideBarHead p{
+    font-size: 9px;
+    padding-top: 4px;
+    font-family: "Inknut Antiqua", serif;
+font-size: 5px;
+font-weight: 400;
+line-height: 12.9px;
+text-align: left;
+align-self: center;
+}
+
+.rightSideBarHead p span img{
+    width: 5px;
+height: 5.83px;
+border: 1px 0px 0px 0px;
+
+}
+
+/* friendContainer */
+.friendContainer{
+    width: 251px;
+    height: 80px;
+    background-color: #3A3A70;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+
+.sideBarInnerImg img{
+    width: 230px;
+    height: 104px;
+    padding-left: 18px;
+}
+
+/* .freindName */
+.friendAvatar{
+   display: flex;
+   gap: 5px;
+   
+}
+.friendAvatar img{
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.freindName{
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 20px; */
+}
+.freindName img{
+    width: 20px;
+    height: 20px;
+    margin-left: 65px;
+    margin-top: 27px;
+}
+.freindName h2{
+    color: #ffffff;
+font-size: 10px;
+font-weight: 400;
+line-height: 25.79px;
+text-align: left;
+margin-top: 20px;
+}
+.freindName p{
+    color: #ffffff;
+font-size: 5px;
+font-weight: 400;
+line-height: 1.9px;
+text-align: left;
+
+}
+
+/* feed page start */
+
+.feed-leftCard{
+    margin-top: 100px;
+    width: 383px;
+    height: 560px;
+    background-color: #3A3A70;
+    border-radius: 10px;
+}
+
+
+
+/* library page css start */
+
+.LibrarySidebar{
+    width: 20%;
+    height: 1100px;
+    background-color: #3A3A70;
+    padding-top: 35px;
+}
+.library-main-body{
+    min-width: 80%;
+    z-index: 1;
+    padding: 30px 60px;
+   
+}
+
+.librarySideHead{
+    font-family: "Inknut Antiqua", serif;
+   color: #ffffff;
+font-size: 23px;
+font-weight: 700;
+line-height: 59.32px;
+
+}
+
+.libraryCardContainer{
+width: 100%;
+height: auto;
+gap: 0px;
+border-radius: 18px;
+opacity: 0px;
+background-color: #3A3A70;
+margin: 0 auto;
+padding: 25px;
+}
+
+.cardFlex{
+    display: flex;
+    gap: 10px;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+height: 177px;
+background-image: url("./images/card1.png");
+background-size: cover;
+border-radius: 10px;
+text-align: center;
+opacity: 0.8;
+
+}
+.card1 h3{
+    color: #ffffff;
+font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+}
+
+.card2{
+    width: 190px;
+    height: 177px;
+    background-image: url("./images/card2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-left: 10px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.8;
+  
+}
+/* card 3 */
+.card3{
+    width: 190px;
+    height: 177px;
+    background-image: url("./images/Rectangle\ 298.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-left: 10px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.8;
+  
+}
+.card4{
+    width: 190px;
+    height: 177px;
+    background-image: url("./images/Rectangle\ 299.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-left: 10px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.8;
+  
+}
+.card5{
+    width: 190px;
+    height: 177px;
+    background-image: url("./images/Rectangle\ 300.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-left: 10px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.8;
+  
+}
+.cardData{
+    display: flex;
+    gap: 10px;
+}
+.cardData h3{
+    font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  font-style: normal;
+  padding-top: 5px;
+}
+
+/* libraryCardContainer2 start */
+
+.librarySideHead2{
+font-size: 23px;
+font-weight: 700;
+line-height: 59.32px;
+   color: #ffffff;
+   margin-top: 30px;
+}
+
+.libraryCardContainer2{
+    width: 100%;
+    height: 315px;
+    gap: 0px;
+    border-radius: 18px;
+    opacity: 0px;
+    background-color: #3A3A70;
+ padding: 25px;
+    
+}
+
+.card6{
+    width: 190px;
+    height: 207px;
+    background-image: url("./images/card6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+
+.innerCard6{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 0px 0px 5px 5px;
+
+}
+.innerCard6 h3{
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    color: #008DDD;
+text-align: center;
+padding-top: 15px;
+}
+.innerCard6 p{
+    font-family: "Inter", sans-serif;
+    font-size: 9px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+text-align: center;
+padding-top: 5px;
+}
+
+.card7{
+    width: 190px;
+    height: 207px;
+    background-image: url("./images/card7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    border-radius: 5px;
+    margin-top: 7px;
+    
+}
+
+
+.card8{
+    width: 190px;
+    height: 207px;
+    background-image: url("./images/card8.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    border-radius: 5px;
+    margin-top: 7px;
+
+}
+
+.card9{
+    width: 190px;
+    height: 207px;
+    background-image: url("./images/card9.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    border-radius: 5px;
+    margin-top: 7px;
+
+}
+
+.card10{
+    width: 190px;
+    height: 207px;
+    background-image: url("./images/card10.png");
+    background-size: cover;
+    background-position: center;
+background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    border-radius: 5px;
+    margin-top: 7px;
+
+}
+
+
+
+/* <!-- libraryCardContainer2Footer start */
+.cardFooFlex{
+    display: flex;
+    gap: 19px;
+   
+}
+.libraryCardContainer2Footer{
+    display: flex;
+    gap: 8px;
+    margin-left: 6px;
+margin-top: 16px;
+align-items: center;
+}
+
+.centerFoot{
+    width: 112px;
+    height: 22px;
+    background-color: #28284E;
+    display: flex;
+justify-content: space-between;
+}
+
+.centerFoot ul{
+    display: flex;
+    gap: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+align-items: center;
+
+
+}
+.centerFoot ul li{
+    list-style: none;
+}
+.centerFoot p{
+    font-family: "Inter", sans-serif;
+font-size: 7px;
+font-weight: 400;
+line-height: 8.47px;
+text-align: left;
+padding-left: 5px;
+padding-top: 10px;
+color: #ffffff;
+}
+
+
+
+/* libraryCintainer3 start */
+.libraryCintainer3{
+    width: 100% ;
+    height: 240px;
+    gap: 0px;
+    border-radius: 18px 18px 0px 0px;
+    opacity: 0px;
+    background-color: #3A3A70;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+
+
+/* friends page css start  */
+.friends-container{
+    width: 713px;
+    height: 900px;
+    background-color: #3A3A70;
+padding-top: 20px;
+}
+
+
+/* searchUsers */
+
+.searchUsers{
+    width: 100%;
+    background-color: #28284E;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    
+    padding-left: 25px;
+    
+}
+.leftContain h3{
+    font-family: Inknut Antiqua;
+font-size: 20px;
+font-weight: 400;
+line-height: 51.58px;
+text-align: right;
+margin-inline:5px;
+color: #ffffff;
+}
+
+.rightContain{
+    width: 261px;
+    height: 34px;
+    background-color: #28284E;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 20px;
+    display: flex;   
+}
+.rightContain input{
+    background-color: #28284E;
+    border: none;
+    padding-left: 5px;
+    color: #ffffff;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.rightContain input:focus{
+    outline: none;
+}
+
+.rightContain i{
+    color: #ffffff;
+    transform: rotate(90deg);
+    font-size: 12px;
+}
+
+
+/* friendList start */
+
+.friendList{
+    width: 655px;
+    height: 79px;
+    border-bottom: 1px solid #ffffff;
+    background-color: #28284E;
+    margin-top: 20px;
+    margin-left: 28px;
+    display: flex;
+    gap: 20px;
+}
+
+.friendAva img{
+    width: 43px;
+    height: 55px;
+    margin-left: 15px;
+    align-content: center;
+    padding-top: 10px;
+}
+
+
+.friendNam p{
+    font-family: "Inter", sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 16.94px;
+text-align: left;
+color: #ffffff;
+align-content: center;
+padding-top: 17PX;
+}
+.freindNam ,h3{
+font-size: 9px;
+font-weight: 400;
+line-height: 23.21px;
+text-align: left;
+color: #ffffff;
+/* align-content: center; */
+
+}
+.postDots{
+    margin-left: 450px;
+}
+
+/* DESKTOP DMS CSS START */
+.dms-main-body{
+   
+    min-width: 75%;
+ background-size: cover;
+   z-index: 1;
+}
+.dmsSideBar{
+    width: 25%;
+    height: 1095px;
+    background-color: #3A3A70;
+    padding-top: 35px;
+}
+.searchUsersDms{
+    margin-left: 45px;
+    margin-top: 25px;
+}
+
+
+.rightContainSearchUser{
+    width: 225px;
+    height: 30px;
+    background-color: #28284E;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    margin-top: 15px;
+    display: flex;   
+    padding-right: 10px;
+}
+.rightContainSearchUser input{
+    width: 181px;
+    height: 28px;
+    background-color: #28284E;
+    border: none;
+    padding-left: 10px;
+    color: #ffffff;
+    border-radius: 50px;
+font-size: 8px;
+font-weight: 400;
+line-height: 30px;
+margin-left: 5px;
+  
+}
+.rightContainSearchUser input:focus{
+    outline: none;
+}
+
+.rightContainSearchUser i{
+    width: 18px;
+height: 18px;   
+margin-top: 10px;
+    color: #ffffff;
+    transform: rotate(90deg);
+    font-size: 12px;
+    
+}
+
+
+.friendCount{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.friendCountText h3{
+    
+    font-family: "Inknut Antiqua", serif;
+font-size: 8px;
+font-weight: 400;
+line-height: 20.63px;
+
+}
+
+/* friendCount */
+
+.friendBox{
+    width: 279px;
+height: 63px;
+margin-top: 22px;
+opacity: 0px;
+background-color: #28284E;
+position: relative;
+}
+.friendBoxData{
+width: 256px;
+height: 63px;
+margin-left: 22px;
+border-bottom: 1px solid #ffffff;
+display: flex;
+gap: 5px;
+}
+
+.text{
+    display: flex;
+  gap: 70px;
+  align-items: center;
+}
+.text p{
+    font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.52px;
+color: #008DDD;
+font-family: "Inter", sans-serif;
+
+}
+.text h3{
+    font-family: "Inter", sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 16.52px;
+text-align: center;
+color: #008DDD;
+
+}
+.avatar{
+    width: 35px;
+    height: 35px;
+
+}
+
+.img{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #008DDD;
+    color: #ffffff;
+    text-align: center;
+    align-content: center;
+}
+.img p{
+    color: #ffffff;
+    font-family: Inter;
+font-size: 4px;
+font-weight: 400;
+line-height: 4.84px;
+text-align: center  ;
+
+}
+.img h2{
+    font-family: Inter;
+font-size: 12px;
+font-weight: 700;
+line-height: 14.52px;
+text-align: center;
+
+}
+/* 
+
+/* sidebarFriendList */
+.sidebarFriendList{
+    margin-top: 10px;
+    position: relative;
+}
+
+.texthead p{
+color: #ffffff;
+}
+.texthead h3{
+    color: #ffffff;
+}
+
+/* friendType */
+.friendType{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 35px;
+    position: absolute;
+    top: 7px;
+}
+.dotss{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #008DDD;
+    padding-top: 5px;
+}
+
+.friendTypeText{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+.friendTypeText p{
+    font-family: "Inknut Antiqua", serif;
+font-size: 8px;
+font-weight: 600;
+line-height: 20.63px;
+text-align: left;
+color: #008DDD;
+
+}
+
+/* friend4 */
+.friend4{
+    margin-top: 10px;
+}
+.friend4 .textData p{
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.52px;
+
+}
+
+.friend4 .textData h3{
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.52px;
+text-align: center;
+
+}
+
+.friend4 .img{
+    background-color: #ffffff;
+}
+.friend4 .img h2{
+    color: black;
+    font-family: "Inter", sans-serif;
+font-size: 8px;
+font-weight: 800;
+line-height: 9.68px;
+text-align: center;
+
+}
+
+/* dmsBodyTopSec */
+
+.dmsBodyTopSec{
+    display: flex;
+    justify-content: space-between;
+    margin:  0 auto;
+    width: 830px;
+    margin-top: 20px;
+}
+
+.leftSec{
+    display: flex;
+    gap: 15px;
+}
+.leftSec h1{
+    font-family: "Inknut Antiqua", serif;
+font-size: 20px;
+margin-left: 10px;
+line-height: 51.58px;
+color: #ffffff;
+}
+.leftSec h2{
+    font-family: "Inter", sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 19.36px;
+text-align: center;
+color: #008DDD;
+align-content: center;
+}
+
+.rightSec{
+    display: flex;
+    gap: 15px;
+    /* margin-left: 300px; */
+}
+.rightSec img{
+    width: 30px;
+height: 30px;
+margin-top: 10px;
+left: 1193px;
+gap: 0px;
+opacity: 0px;
+
+}
+.rightSec p{
+margin-top: 5px;
+font-family: "Inknut Antiqua", serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 38.69px;
+text-align: center;
+color: #ffffff;
+}
+
+/* dmsMainSec */
+ 
+ .dmsMainSec{
+    width: 900px;
+    height: 767px;
+    background-color: #3A3A70;
+    margin: 0 auto;
+    padding-top: 30px;
+} 
+.innerDmsMainSec{
+    width: 800px;
+    height: 630px;
+    background-color: #28284E;
+margin: 0 auto;
+border-radius: 14px;
+margin-top: 8px;
+
+}
+
+/* innerDmsData */
+.innerDmsData{
+    display: flex;
+    gap: 15px;
+   padding: 30px;
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+}
+
+.innerAva img{
+    width: 30px;
+height: 30px;
+
+}
+.innerDmsText h1{
+    padding-top: 10px;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.52px;
+font-family: "Inter", sans-serif;
+}
+
+.innerDmsText sup{
+font-family: "Inter", sans-serif;
+font-size: 6px;
+font-weight: 400;
+line-height: 7.26px;
+text-align: center;
+}
+
+.innerDmsText h2{
+font-family: "Inter", sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.52px;
+margin-top: 12px;
+margin-left: 10px;
+}
+
+.innerDmsText p{
+font-family: "Inter", sans-serif;
+
+font-size: 12px;
+font-weight: 400;
+line-height: 14.52px;
+margin-top: 4px;
+margin-left: 10px;
+}
+.innerDmsText h2 span{
+    margin-left: 8px;
+}
+.friendImg{
+    margin-top: 10px;
+    margin-left: 12px;
+top: 419px;
+left: 479px;
+gap: 0px;
+opacity: 0px;
+}
+
+.friendImg img{
+    width: 161px;;
+height: 111px;
+}
+.friIcon img{
+    width: 66px;
+height: 59px;
+margin-left: 15px;
+margin-top: 8px;
+}
+
+/* dmsInnerFooter */
+
+.dmsInnerFooter{
+    width: 800px;
+    height: 50px;
+    background-color: #28284E;
+    margin: 0 auto;
+    margin-top: 15px;
+
+}
+
+
+/* dmsInnerFooter */
+.dmsInnerFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftFoot h2{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: center;
+    color: #707070;
+    
+    padding-left: 12px;
+}
+.leftFoot input{
+    background-color: #28284E;
+    border: none;
+    padding-left: 15px;
+    color: #ffffff;
+    transition: font-size 0.2s
+}
+.leftFoot input:focus{
+    outline: none;
+    font-size: 12px;
+}
+.RightFoot{
+    padding-right: 20px;
+   display: flex;
+   gap: 5px;
+   justify-content: center;
+   align-items: center;
+}
+
+
+/* <!-- profil page start --> */
+
+.profileBodyrightSidebar {
+    margin-top: 33px;
+    margin-top: 33px;
+    position: absolute;
+    top: 31.5pc;
+    /* right: -209px; */
+    right: 65px;
+}
+
+.profileVideo video{
+    position: fixed;
+    width: auto;
+height: auto;
+z-index: -1;
+}
+.profileMainBody{
+    min-width: 80%;
+
+}
+
+/* aboutus container */
+.aboutus-container{
+    width: 600px;
+    padding: 7px 20px;
+    background-color: #3A3A70;
+    font-family: "Inter", sans-serif;
+    border-radius: 5px;
+    margin-top: 34px;
+}
+.info-table{
+    padding: 0 20px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.info-table table tr {
+  margin-inline: 10px;
+}
+
+/* friend-list-card  */
+
+.friend-list-card {
+    width: 600px;
+    background-color: #ffffff;
+    border-radius: 12px 12px 0 0;
+    position: relative;
+    height: 250px;
+}
+
+.friend-list-cover{
+    background-image: url("./images/cover.jpg");
+    width: 100%;
+    height: 100px;
+    border-radius: 12px 12px 0 0;
+}
+
+.profile-pic img{
+    width: 100px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 45px;
+    left: 250px;
+}
+.profile-pic p{
+    text-align: center;
+    margin-top: 18px;
+}
+
+
+
+.header{
+    display: flex;
+    align-content: center;
+}
+
+.hederAva{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.hederAva .avatar-text .avatar-icon {
+    margin-top: 3px;
+}
+
+
+
+
+.header .navbar{
+    align-items: center;
+    margin-left: 50px;
+    padding-top: 10px;
+
+    }
+
+
+.rightsideicon{
+  margin-left: 540px;
+}
+
+/* bannerContainer */
+
+.bannerContainer{
+    width: 100%;
+    height: 215px;
+    background-color: #3A3A70;
+    position: relative;
+}
+.bannerHead h1{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+font-size: 62px;
+padding-top: 20px;
+font-weight: 700;
+line-height: 111.34px;
+text-align: center;
+color: #ffffff;
+}
+
+.arrowIcon{
+    display: flex;
+    justify-content: end;
+    margin-right: 65px;
+    padding-top: 15px;
+}
+
+.bannerAvatar{
+   position: absolute;
+top: 0;
+left: 45%;
+top: 145px;
+}
+.bannerAvatar h2{
+    font-family: "Inknut Antiqua", serif;
+font-size: 29px;
+font-weight: 400;
+line-height: 41.79px;
+text-align: center;
+color: #ffffff;
+
+}
+
+.leftbtns1 button{
+    width: 155px;
+height: 44px;
+font-family: "Inknut Antiqua", serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 41.26px;
+text-align: center;
+background-color: #28284E;
+color: #ffffff;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+
+}
+
+.leftbtns2 button{
+    width: 155px;
+height: 44px;
+font-family: "Inknut Antiqua", serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 41.26px;
+text-align: center;
+background-color: #ffffff;
+color: #454B60;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+    margin-left: 100px;
+    margin-top: 10px;
+
+
+}
+
+
+.rightbtn1{
+    margin-left: 500px;
+}
+
+.rightbtn1 button{
+    width: 155px;
+    height: 44px;
+    font-family: "Inknut Antiqua", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 41.26px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #454B60;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.rightbtn2 button{
+    width: 155px;
+    height: 44px;
+    font-family: "Inknut Antiqua", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 41.26px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #454B60;
+    border: none;
+    border-radius: 10px;
+cursor: pointer;
+
+}
+
+/* profile page left side bar */
+
+.leftSideBarHead{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.leftSideBarHead img{
+    width: 26.17px;
+height: 23.2px;
+
+
+}
+.leftSideBarHead h2{
+    font-family: "Inknut Antiqua", serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 46.42px;
+text-align: left;
+color: #ffffff;
+}
+
+/* profileLeftSideBar */
+.profileLeftSideBar{
+    width: 349px;
+height: 686px;
+background-color: #3A3A70;
+margin-top: 10px;
+padding-top: 40px;
+}
+
+.sideBarInnerData{
+    width:298px;
+height: 69px;
+top: 480px;
+left: 25px;
+border-bottom: 2px solid #ffffff;
+margin-left: 22px;
+margin-top: 30px;
+}
+
+.inner{
+    display: flex;
+    justify-content: space-between;
+   align-items: baseline;
+
+}
+
+.inner h2{
+    font-family: "Inknut Antiqua", serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 51.58px;
+text-align: left;
+color: #ffffff;
+}
+.inner img{
+    width: 16px;
+height: 16px;
+
+
+}
+
+/* profile display */
+
+
+/* profileComments */
+
+.profileComments{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    margin-left: 740px;
+}
+.profileComments h2{
+    font-family: "Inknut Antiqua", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 46.42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.profileComments img{
+    margin-top: 10px;
+    color: #FFFFFF;
+   font-weight: 900;
+}
+
+.profile-display{
+    display: flex;
+    gap: 50px;
+}
+
+
+/* display-body-navbar */
+
+.display-body-navbar{
+   width: 880px;
+height: 59px;
+opacity: 0px;
+background: #3A3A70;
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+}
+
+
+.leftSide{
+    display: flex;
+    gap: 20px;
+    font-family: "Inknut Antiqua", serif;
+font-size: 8px;
+font-weight: 400;
+line-height: 33.53px;
+text-align: left;
+color: #FFFFFF;
+align-items: center;
+padding-left: 30px;
+}
+
+
+/* rightSide */
+.rightSide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightSide button{
+    width: 120px;
+    height:auto;
+    border-radius: 10px ;
+    background-color: #3A3A70;
+    border:  0.8px solid #DBDBDB;
+margin-right: 20px;
+color: #FFFFFF;
+font-family: "Inknut Antiqua", serif;
+/* font-size: 16px; */
+font-weight: 800;
+
+}
+
+.leftInnerBody-card{
+    max-width:  383px;
+height: 363px;
+    margin-top: 35px;
+    margin-right: 10px;
+    border-radius: 8px;
+    position: relative;
+    background-color: #3A3A70;
+    padding-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+.leftInnerBodyCardText h4{
+    font-family: "Inknut Antiqua", serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20.79px;
+    text-align: left;
+    color: #008DDD;
+    margin-left: 45px;
+    margin-top: 5px;
+}
+.leftInnerBodyCardText p{
+    font-family: "Inknut Antiqua", serif;
+    font-family: Inknut Antiqua;
+    font-size: 7px;
+    font-weight: 300;
+    line-height: 5px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 45px;
+    
+}
+
+
+
+.profileICardSec{
+    background-color: #28284E;
+    width: 314px;
+    height: 150px;
+    margin: 10px 44px;
+    display: flex;
+margin-top: 21px;
+}
+
+.leftCard{
+    width: 80%;
+    height: 100%;
+font-size: 8px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+color: #ffffff;
+padding: 10px;
+
+}
+.rightIcons{
+    width: 20%;
+    height: 100%;
+padding-top: 5px;
+
+}
+
+.rightIcons ul li{
+    list-style: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+/* profileInnerCardFooter */
+
+.profileInnerCardFooter{
+    width: 314px;
+height: 30px;
+margin-left: 43px;
+margin-right: 20px;
+background-color: #3A3A70;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.FooteText h2{
+    font-family: "Inter", sans-serif;
+font-size: 10px;
+font-weight: 400;
+line-height: 12.1px;
+text-align: start;
+color: #FFFFFF;
+padding-left: 10px;
+}
+
+.FootIcons ul{
+    display: flex;
+ 
+}
+
+.FootIcons ul li{
+    list-style: none;
+    padding-top: 3px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.box{
+    width: 314px;
+background-color: #1b1b53;
+height: 15px;
+margin-left: 43px;
+border-radius: 0px 0px 5px 5px;
+}
+
+.profile-postDots{
+    position: absolute;
+    top: 105px;
+    right: 22px;
+}
+
+/* .leftInnerBody{
+    display: flex;
+} */
+
+
+
+
+
+
+
+.ProfileRightSideBarHead h3{
+    font-family: "Inknut Antiqua", serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 38.69px;
+}
+
+.ProfileRightSideBarHead p{
+    font-family: "Inknut Antiqua", serif;
+    font-size: 5px;
+    font-weight: 400;
+    line-height: 12.9px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+profileBodyrightSidebar .rightSideBarHead{
+    margin-top: 5px;
+}
+
+.ProfileRightSideBarHead{
+    display: flex;
+   margin-left: 15px;
+    gap: 55px;
+    margin-top: 20px;
+    font-family: "Inknut Antiqua", serif;
+line-height: 18px;
+font-weight: 400;
+font-size: 15px;
+color: #ffffff;
+}
+
+
+
+/* feed inner page start */
+.feedInnerPageSideBar{
+    width: 20%;
+    height: 1043px;
+    background-color: #3A3A70;
+    padding-top: 35px;
+}
+
+.feedInnerPageSidebar-header{
+    width: 230px;
+    height: 80px;
+    background-color: rgb(20, 20, 77);
+display: flex;
+justify-content: start;
+align-items: center;
+    border-radius: 0px 6px 6px 0px;
+}
+.feedInnerPage{
+    width: 80%;
+    z-index: 1;
+}
+
+/* feedInnerPageBox */
+
+.feedInnerPageBox{
+    width: 720px;
+    height: 886px;
+   
+opacity: 0px;
+background-color: #3A3A70;
+margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+.box-ava{
+    margin-left: 20px;
+  
+}
+.threeDots{
+    display: flex;
+justify-content: end;
+margin-left: auto;
+margin-right: 30px;
+margin-top: 10px;
+}
+
+.threeDots img{
+    width: 29.6px;
+height: 7px;
+top: 166px;
+left: 1165px;
+padding: 0px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+/* feddInnerBoxes */
+.feddInnerBoxes{
+    width: 605px;
+height: 60px;
+border-radius: 3px;
+opacity: 0px;
+background-color: #1b1b53;
+margin: 0 auto;
+margin-top: 14px;
+}
+
+.feddInnerBoxes h2{
+    font-family: "Inknut Antiqua", serif;
+font-size: 19px;
+font-weight: 400;
+line-height: 40px;
+text-align: left;
+color: #008DDD;
+padding-left: 13px;
+
+}
+
+.feddInnerBoxes p{
+    font-family: "Inknut Antiqua", serif;
+font-size: 13px;
+font-weight: 300;
+line-height: 1px;
+text-align: left;
+color: #FFFFFF;
+padding-left: 13px;
+
+}
+
+.feedInnerBox2{
+    width: 605px;
+height: 219px;
+border-radius: 5px;
+opacity: 0px;
+background-color: #1b1b53;
+margin: 0 auto;
+margin-top: 14px;
+}
+
+.feedInnerBox2 h2{
+    font-family: "Inknut Antiqua", serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 33px;
+text-align: left;
+color: #ffffff;
+padding: 17px;
+
+}
+
+/* innerFeed-ava */
+.innerFeed-ava{
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.left-card-text h2{
+    font-family: "Inter", sans-serif;
+font-size: 10px;
+font-weight: 400;
+line-height: 12.1px;
+text-align: center;
+
+}
+
+
+
+.innerFeedIcons ul{ 
+    display: flex;
+    gap: 5px;
+    justify-content: start;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.innerFeedIcons ul li{
+    list-style: none;
+}
+
+.innerFeedIcons ul li img{
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+    margin-top: 5px;
+    align-items: center;
+}
+.innerFeedIcons ul li span{
+    font-family: "Inter", sans-serif;
+font-size: 8px;
+font-weight: 400;
+line-height: 9.68px;
+margin-left: 4px;
+
+}
+
+.threeDOt img{
+    width: 10px;
+height: 2px;
+margin-left: 10px;
+}
+
+/* innerFeed2-ava  */
+
+.innerFeed2-ava{
+    margin-left: 110px;
+
+}
+
+.line ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    top: 743px;
+    left: 548px;
+}
+
+.line ul li{
+    list-style: none;
+}
+.line ul li span img{
+    margin-top: 140px;
+}
+.line ul li span{
+    font-family: "Inter", sans-serif;
+font-size: 10px;
+font-weight: 400;
+line-height: 12.1px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+/* innerFeedFooter */
+
+.innerFeedFooter{
+    display: flex;
+    gap: 5px;
+    margin-left: 56px;
+    margin-top: 35px;
+    padding-left: 39px;
+}
+.footBox{
+    width: 493px;
+height: 37px;
+background-color: #1b1b53;
+
+}
+/* foooticons */
+.footBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footText input {
+    height: 25px;
+background-color: #1b1b53;
+    font-family: "Inter", sans-serif;
+    font-size: 7;
+    font-weight: 400;
+    color:#82828282;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+
+}
+
+/* foooticons */
+.foooticons ul{
+    display: flex;
+    gap: 10px;
+    padding-right: 15px;
+}
+.foooticons ul li{
+    list-style: none;
+    padding-top: 6px;
+}
+
+.feedInnerBox2Img{
+    width: 605px;
+    height: 219px;
+}
+
+.feedInnerBox2Img img{
+    width: 100%;
+   height: 219px;
+}
+
+
+/* mainBox */
+.mainBox{
+    width: 611px;
+height: 743px;
+border-radius: 5px;
+opacity: 0px;
+background-color: #1b1b53;
+margin-left: 55px;
+margin-top: 15px;
+}
+.mainBoxDetails{
+    background-color: #1b1b53;
+    margin-left: 10px;
+    margin-top: 14px;
+    padding-top: 10px;
+}
+
+.mainBoxDetails h2{
+    font-family: "Inknut Antiqua", serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 15px;
+text-align: left;
+color: #008DDD;
+padding: 13px;
+}
+
+.mainBoxDetails p{
+    font-family: "Inknut Antiqua", serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-left: 13px;
+    
+    
+}
+
+/* feedInnerImgPageBox */
+
+.FeedInnerImgPage{
+    display: flex;
+}
+
+.feedInnerImgPageSideBar{
+    width: 20%;
+    height: 1260px;
+    background-color: #3A3A70;
+    padding-top: 35px;
+}
+
+.feedInnerImgPage{
+    width: 80%;
+    z-index: 1;
+}
+
+.feedInnerImgPageBox{
+    width: 720px;
+    height: 1105px;
+opacity: 0px;
+background-color: #3A3A70;
+margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+
+.feedInnerBox2img img{
+    width: 100%;
+    margin-top: 22px;
+}
+
+.paragraph p{
+    font-family: "Inknut Antiqua", serif;
+font-size: 10px;
+font-weight: 400;
+line-height: 33px;
+text-align: left;
+color: #FFFFFF;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+/* feed img line */
+
+.feedImgLine ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    top: 972px;
+    left: 548px;
+}
+
+.feedImgLine ul li{
+    list-style: none;
+}
+.feedImgLine ul li span img{
+    margin-top: 140px;
+}
+.feedImgLine ul li span{
+    font-family: "Inter", sans-serif;
+font-size: 10px;
+font-weight: 400;
+line-height: 12.1px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+
+/* post likk page */
+
+.postLikk-main-body{
+    background-image: url(./images/01\ 1.png);
+   width: 80%;
+   height: 1690px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+ filter: brightness(0.5)
+
+   
+}
+
+/* post likk side bar */
+.postLikk-sidebar{
+    width: 20%;
+    height: 1690px;
+    background-color: #3A3A70;
+    padding-top: 35px;
+}
+
+/* postLikk-head-container */
+.postLikk-head-container{
+    /* display: none !important; */
+    width: 67%;
+    height: 295px;
+    background-color: #3A3A70;
+    margin-left: 55px;
+    border-radius: 14px;
+    border: 20px solid #3A3A70 ;
+display: flex;
+justify-content: space-between;
+padding: 5px;
+display: none;
+
+}
+
+
+.post-likk-InnerContain{
+    width: 100%px;
+    height: 246px;
+    background-color: #1b1b53;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 15px;
+
+}
+.InputsFlex{
+    display: flex;
+
+}
+
+.post-inputs p{
+    font-family: "Inter", sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 14.52px;
+color: #ffffff;
+
+}
+.post-inputs input{
+    width: 360px;
+height: 30px;
+border-radius: 10px ;
+opacity: 0px;
+background-color: #3A3A70;
+border: none;
+outline: none;
+padding-left: 10px;
+margin-top: 10px;
+font-family: "Inter", sans-serif;
+font-size: 10px;
+font-weight: 400;
+line-height: 12.1px;
+color: #ffffff;
+}
+.post-inputss p{
+    font-family: "Inter", sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 14.52px;
+color: #ffffff;
+
+}
+
+.post-inputss select{
+    width: 230px;
+    height: 30px;
+    margin-right: 30px;
+    background-color: #3A3A70;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: "Inknut Antiqua", serif;
+font-size: 10px;
+font-weight: 400;
+line-height: 25.79px;
+color: #ffffff;
+border: none;
+outline: none;
+}
+
+
+
+/* uploadImg */
+ .uploadImg{
+    display: flex;
+    justify-content: space-around;
+    width: 230px;
+    height: 30px;
+    background-color: #3A3A70;
+    border-radius: 10px;
+    margin-top: 10px; 
+} 
+
+.uploadImg img{
+    width: 14px;
+    height: 13px;
+    opacity: 0px;
+    margin-top: 10px;
+    background-color: #3A3A70;
+    
+}
+
+.uploadImg input{
+    padding-left: 5px;
+    color: #1b1b53;
+    background-color: #3A3A70;
+    border: none;
+    outline: none;
+    font-family: "Inknut Antiqua", serif;
+font-size: 10px;
+font-weight: 400;
+line-height: 25.79px;
+border-radius: 10px;
+color: #ffffff;
+padding-left: 5px;
+
+}
+
+.infoContains h1{
+    font-family: "Inter", sans-serif;
+font-size: 13px;
+font-weight: 700;
+line-height: 15.73px;
+text-align: left;
+margin-top: 10px;
+color: #008DDD;
+}
+
+/* infoInnerContains */
+.infoInnerContains{
+    width: 360px;
+    height: 83px;
+    background-color: #3A3A70;
+    margin-top: 5px;
+}
+
+.infoInnerContains textarea{
+    width: 100%;
+    height: 35px;
+    background-color: #3A3A70;
+    border: none;
+    outline: none;
+    font-family: "Inter", sans-serif;
+font-size: 10px;
+font-weight: 400;
+overflow: hidden;
+line-height: 12.1px;
+color: #a18989;
+padding: 10px;
+}
+
+.infoContainIcons ul{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.infoContainIcons ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+/* desktop home page  */
+
+.desktopHomePage-main-body{
+    background-image: url(./images/01\ 1.png);
+   width: 80%;
+   height: 1190px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   
+}
+
+
+
+.desktopHomePage-sidebar{
+    width: 20%;
+    height: 1190px;
+    background-color: #3A3A70;
+    padding-top: 35px;
+}
+
+
+.desktopHomePage-topContain{
+    width: 67%;
+    background-color: #3A3A70;
+    margin-left: 55px;
+    border-radius: 14px;
+    border: 20px solid #3A3A70 ;
+display: flex;
+justify-content: space-between;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.desktopHomePage-topContain .InputsFlex .post-inputs input{
+    background-color: #1b1b53;
+    border-radius: 6px;
+    width: 400px;
+
+}
+
+.desktopHomePage-topContain .InputsFlex .post-inputss select{
+    background-color: #1b1b53;
+    border-radius: 6px;
+    margin-left: 20px;
+
+}
+.desktopHomePage-topContain .InputsFlex .post-inputss .uploadImg {
+    background-color: #1b1b53;
+    border-radius: 6px;
+    margin-left: 20px;
+
+}
+.desktopHomePage-topContain .InputsFlex .post-inputss .uploadImg input{
+    background-color: #1b1b53;
+    
+
+}
+
+.post-inputs img{
+    width: 400px;
+    height: 165px;
+    margin-top: 15px;
+    object-fit: cover;
+}
+
+
+.textArea{
+    width: 400px;
+    height: 135px;
+    background-color: #1b1b53;
+    margin-top: 10px;
+}
+
+.textInput{
+    display: flex;
+    justify-content: space-around;
+}
+
+.textInput input{
+    font-family: "Inter", sans-serif;
+font-size: 11px;
+font-weight: 300;
+line-height: 13.31px;
+color: #ffffff;
+
+}
+
+.textInput span{
+    width: 103px;
+height: 7px;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+font-size: 6px;
+font-weight: 400;
+line-height: 7.26px;
+margin-top: 20px;
+
+}
+
+.textBox{
+    margin-left: 170px;
+    
+}
+.textBox img{
+    width: 32px;
+height: 35px;
+margin-left: 10px;
+}
+
+.textBox p{
+    font-family: "Inter", sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 14.52px;
+
+}
+
+.textBox span img{
+    width: 16px;
+    height: 17px;
+    margin-left: 120px;
+    margin-top: 1px;
+   
+}
+
+
+/* cards link to other page */
+a{
+    text-decoration: none;
+}
+
+
+/* media query css start */
+
+@media only screen and (max-width: 1367){
+    .video video{
+        position: fixed;
+    width: auto;
+    
+    }
+    /* .profileBodyrightSidebar {
+        margin-top: 33px;
+    position: absolute;
+    top: 31.5pc !important;
+    right: 153px !important;
+    } */
+
+    /* profileBodyrightSidebar */
+ .profileBodyrightSidebar{
+    margin-top: 33px;
+    margin-top: 33px;
+    position: absolute;
+    top: 31.5pc;
+    right: 48px;
+} 
+}
+
+
+/* tablet screen */
+
+@media only screen and (max-width: 768px){
+
+/* profile page */
+.profileMainBody {
+    width: 100%;
+}
+.profile-pic img {
+    width: 100px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 45px;
+    left: 160px;
+}
+.friend-list-card{
+    width: 420px;
+}
+.aboutus-container{
+width: 427px;
+}
+.video video{
+    position: fixed;
+width: auto;
+
+}
+
+
+.infoInnerContains{
+width: 95%;
+
+}
+.uploadImg{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding-right: 10px;
+}
+.postLikk-head-container{
+    width: 50%;
+    height: 400px;
+}
+.post-likk-InnerContain{
+    height: 348px;
+}
+.InputsFlex{
+    display: block;
+}
+.post-inputs input{
+    width: 95%;
+}
+.post-inputss select{
+    width: 95%;
+} 
+.avatar-text{
+    width: 64px;
+}
+.avatar-icon img{
+    margin: 19px 14px;
+} 
+.top-container-avatar-left{
+    display: flex;
+    gap: 5px;
+}
+.top-container-avatar-right ul{
+    display: flex;
+    gap: 12px;
+}
+.header .navbar{
+    width: 100% !important;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.bannerContainer {
+    width: 100%;
+    height: 195px;
+} 
+.bannerHead h1 {
+    font-size: 40px;
+}
+.bannerAvatar {
+    position: absolute;
+    left: 45%;
+    top: 132px;
+}
+.bannerAvatar img {
+    width: 80px;
+    height: 80px;
+}
+
+.buttons {
+    margin-left: 20px !important;
+}
+.leftbtns2 button {
+    width: 125px;
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+.leftbtns1 button {
+    width: 125px;
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+.rightbtn1 {
+    margin-left: 153px;
+} 
+
+.rightbtn1 button{
+    width: 125px;
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+.rightbtn2 button{
+    width: 125px;
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+.profileComments {
+    margin-left: 195px;
+}
+
+.profileLeftSideBar {
+width: 265px;
+margin-top: 20px;
+}
+.inner h2 {
+    font-size: 13px;
+}
+.sideBarInnerData {
+    width: 234px;
+}
+.display-body-navbar{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.rightSide button {
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #3A3A70;
+    border: 0.8px solid #DBDBDB;
+    margin-right: 15px;
+    color: #FFFFFF;
+    font-family: "Inknut Antiqua", serif;
+    font-size: 10px;
+    font-weight: 300;
+}
+.leftSide {
+    display: flex;
+    gap: 6px;
+    font-size: 5px;
+}
+.rightInnerBodyCard{
+    display: none;
+}
+.leftInnerBody{
+    width: 100%;
+    margin-left: 23px;
+} 
+
+.leftSideBarHead {
+    margin-left: 28px;
+}
+.rightsideicon {
+    margin-left: 0 !important;
+}
+    .sidebar{
+        display: none;
+    }
+    .cards{
+        display: block;
+    }
+    
+   
+    .LibrarySidebar{
+        display: none;
+
+    }
+    .dmsSideBar {
+        width: 25% !important;
+    }
+    .library-main-body {
+        width: 100%;
+        height: 930px;
+    }
+    .libraryCardContainer {
+        width: 650px;
+        height: 167px;
+        padding: 18px;
+    }
+    .libraryCardContainer2{
+        width: 650px;
+        height: 224px;
+        padding: 15px;
+       
+    }
+    .libraryCintainer3{
+        padding: 15px;
+        width: 650px;
+        height: 180px;
+    }
+    .rightSidebar {
+        width: 250px;
+        height: 100px;
+        /* margin-top: 123px; */
+        position: absolute;
+        top: 200px;
+        right: 25px;
+    }
+    
+    .feed1{
+        width: 250px;
+        height: 100px;
+        /* margin-top: 123px; */
+        position: absolute;
+        top: 100px !important;
+        right: 25px; 
+    }
+    .friendss {
+        width: 250px;
+        height: 100px;
+        position: absolute!important;
+        top: 121px !important;
+        right: 25px; 
+    }
+    .friends-container {
+        width: 65%;
+        margin-left: -11px;
+        margin-top: 10px;
+    }
+    .friendList {
+        width: 380px;
+    }
+    .friendNam p {
+        width: 200px;
+
+    }
+
+    .friendNam h3 {
+        width: 75px;
+
+    }
+    .postDots{
+ margin-left: 50px !important;
+    }
+    .lower-left-card{
+        margin-top: 27px;
+    }
+    .main-body{
+        width: 100% !important;
+       
+    }
+    .top-container{
+        width: 90% !important;
+        margin-left: 50px !important;
+    }
+    .cards{
+        width: 50% !important;
+    }
+    .left-card{
+        margin-top: 51px;
+    }
+    .card1 {
+        width: 120px ;
+        margin-left: 0;
+        background-position: cover;
+        height: 135px;
+    }
+    .card2 {
+        width: 120px;
+        height: 135px;
+
+    }
+    .card3 {
+        width: 120px ;
+        height: 135px;
+
+    }
+    
+    .card3 {
+        width: 120px;
+        height: 135px;
+
+    }
+    
+    .card4 {
+        width: 120px;
+        height: 135px;
+
+    }
+    
+
+    .card5 {
+        width: 120px;
+        height: 135px;
+
+    }
+    .card6 {
+        width: 120px;
+        height: 135px;
+        margin-left: 0;
+
+    }
+
+    .card7 {
+        width: 120px;
+        height: 135px;
+
+    }
+    .card8 {
+        width: 120px;
+        height: 135px;
+
+    }
+    .card9 {
+        width: 120px;
+        height: 135px;
+    }
+
+    .card10 {
+        width: 120px;
+        height: 135px;
+
+    }
+    .cardData img{
+        width: 30px;
+        height: 30px;
+    }
+    .cardData h3{
+        font-size: 9px;
+    }
+    .flag1 img{
+        width: 8px;
+    }
+    .centerFoot {
+        width: 80px;
+    }
+    .libraryCardContainer2Footer {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .cardFooFlex{
+        display: flex;
+        gap: 13px;
+    }
+    .innerCard6{
+        height: 55px;
+    }
+    .innerCard6 h3{
+        padding-top: 5px !important;
+    }
+    .friendsBody {
+        height: 1040px !important;
+    }
+    .feedSideBar {
+        display: none !important;
+    }
+
+    .friendBox {
+        width: 100%;
+    }
+    .text {
+        display: flex;
+        gap: 32px;
+    }
+    .friendBoxData {
+    width:100% ;
+    margin-left: 0;
+    display: flex;
+    gap: 0;
+    }
+    .friendType {
+        display: flex;
+        margin-left: 14px;
+        position: absolute;
+        top: 4px;
+    }
+
+    .searchUsersDms {
+        margin-left: 10px;
+    }
+    .rightContainSearchUser {
+        width: 178px;
+    } 
+    .rightContainSearchUser i {
+        margin-top: 7px;
+    }
+    .innerDmsMainSec {
+        width: 450px;
+    } 
+
+    .dms-main-body{
+        width: 75%;
+    }
+    .dmsMainSec {
+        width: 91%;
+    }
+    .dmsBodyTopSec{
+        width: 86%;
+    }
+    .avatar{
+        width: 30px;
+        height: 30px;
+    }
+    .avatar img{
+        width: 30px;
+        height: 30px;
+    }
+    .text p{
+        font-size: 9px;
+    }
+    .text h3{
+        font-size: 9px;
+    }
+    .img p {
+        font-size: 8px;
+        padding-top: 4px;
+    }
+    .textData p{
+        font-size: 10px;
+    }
+    .textData h3{
+        font-size: 10px;
+    }
+    .friend4 .textData p{
+        font-size: 10px;
+    }
+    .friend4 .textData h3{
+        font-size: 10px;
+    }
+    .dmsInnerFooter {
+        width: 85%;
+    }
+    .innerDmsData {
+        padding: 30px
+    }
+
+.feedInnerPageSideBar {
+    display: none;
+}
+.feedInnerPage {
+    width: 100%;
+}
+.feedInnerPageBox {
+    width: 85%;
+} 
+.feddInnerBoxes {
+    width: 85%;
+}
+.feedInnerBox2 {
+    width: 85%;
+}
+.line ul {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    top: 745px;
+  left: 156px;
+}
+.innerFeedFooter {
+    margin: 0 auto !important;
+    margin-top: 30px !important;
+}
+.feedInnerImgPage {
+    width: 100%;
+   
+}
+.feedInnerImgPageBox {
+    width: 80%;
+}
+.mainBox {
+    width: 82%;
+    margin:  0 auto;
+    margin-top: 0 !important;
+}
+.feedImgLine ul {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    top: 972px;
+    left: 176px;
+}
+.innerFeedFooter {
+    width: 81%;
+}
+}
+
+
+/* Mubile screen */
+@media all and (max-width: 480px){
+    .profile-display {
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+    }
+
+
+
+.postLikk-head-container{
+    width: 90%;
+        height: 400px;
+        margin: 0 auto;
+}
+    
+    .top-container-avatar-right{
+        display: none;
+    }
+
+
+    .header .navbar {
+        align-items: center;
+    }
+
+
+    .header .navbar {
+        margin-left: 0;
+    }
+
+
+
+    .sideBarInnerData {
+        width: 300px ;
+    }
+    .leftSideBarHead {
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+    }
+
+
+    .profileComments {
+        margin-left: 58px;
+    }
+    .hederAva {
+        display: none;
+    }
+
+
+    .leftInnerBody {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .profileMainBody {
+        height: auto;
+    }
+
+
+    .dms-main-body {
+        width: 100%;
+    }
+    .library-main-body {
+        height: auto;
+    }
+
+    .innerFeedFooter {
+        padding-left: 0;
+    }
+
+
+    .profileLeftSideBar {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .cards{
+        width: 88% !important;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 15px !important;
+    }
+.top-container {
+    width: 88% !important;
+    margin-left: 0 !important;
+    margin: 0 auto !important;
+}
+.rightSidebar{
+    position: relative;
+    top: 20px;
+}
+.left-card {
+    width: 100%;
+   margin-top: 10px !important;
+}
+
+.lower-left-card{
+    display: none;
+}
+.innerCard{
+    width: 82%;
+}
+
+
+
+.navbar {
+    width: 100%;
+}
+.navbar-image{
+    width: 30px;
+}
+.navbar-list ul::hover{
+    width: 35px;
+    cursor: pointer;
+}
+.navbar-list ul{
+    margin: 0 ;
+}
+
+
+
+
+.rightSidebar {
+    /* position: relative;
+    top: -46px;
+    left: -73px;
+    margin: 0 auto; */
+    display: none;
+}
+/* .topRightContainer {
+    width: 406px;
+}
+.sideBarInnerImg img {
+    width: 96%;
+    object-fit: fill;
+    height: 150px;
+    padding-left: 18px;
+}
+.rightSideBarHead{
+    width: 388px;
+} */
+
+/* dms  */
+
+.dmsSideBar{
+    display: none;
+}
+
+.leftSec h1{
+    font-size: 10px;
+}
+.leftSec h2{
+    font-size: 10px;
+
+}
+.rightSec{
+    display: flex;
+    gap: 5PX;
+}
+.rightSec p{
+    font-size: 10px;
+}
+.rightSec img{
+    width: 20px;
+    height: 20px;
+}
+.innerDmsMainSec {
+    width: 90%;
+}
+.innerDmsData {
+    padding: 9px;
+}
+.dmsBodyTopSec {
+    margin-top: 3px;
+}
+
+/* friends.html */
+.friendsBody {
+    width: 98%;
+}
+
+
+.rightSidebar{
+    display: none;
+}
+.friends-container {
+    width: 91% !important;
+ margin: 0 auto;
+}
+.searchUsers {
+    padding-left: 10px !important;
+}
+.leftContain h3{
+    font-size: 16px;
+}
+.rightContain input{
+    width: 135px;
+    font-size: 10px;
+}
+.rightContain {
+    width: 183px;
+    margin-right: 13px;
+    
+}
+.friendList{
+    width: 86% !important;
+}
+.postDots {
+    margin-left: -30px !important;
+}
+
+/* library page */
+.libraryCardContainer{
+    width: 100% !important;
+    height:auto;
+    background: none;
+    overflow: scroll;
+}
+.libraryCardContainer2{
+    width: 100% !important;
+    height: auto;
+    margin-top: 20px;
+    background: none;
+    overflow: scroll;
+    background: none;
+}
+.libraryCardContainer3{
+    width: 100% !important;
+  
+}
+.libraryCintainer3 {
+    margin-top: 20px;
+    overflow: scroll;
+    background: none !important;
+}
+.cardFlex{
+    display: flex;
+width: 540px;
+/* overflow: scroll; */
+}
+.card1{
+    width: 100px;  
+}
+.card2 {
+    width: 100px ;
+
+}
+.card3 {
+    width: 100px ;
+
+}
+.card4 {
+    width: 100px ;
+
+}
+.card5 {
+    width: 100px ;
+
+}
+.cardData h3{
+    font-size: 7px;
+}
+.librarySideHead {
+   
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 0.32px;
+    margin-top: 20px;
+}
+.librarySideHead2{
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 0.32px;
+    margin-top: 20px;
+}
+
+.card6 {
+    width: 120px !important ;
+
+}
+.card7 {
+    width: 120px ;
+
+}
+.card8 {
+    width: 120px ;
+
+}
+
+.card9 {
+    width: 120px ;
+
+}
+.card10 {
+    width: 120px ;
+
+}
+
+.library-main-body{
+    padding: 20px;
+}
+.libraryCardContainer2Footer{
+    display: none;
+}
+.libraryCintainer3{
+    width: 100%;
+}
+
+.innerFeed-ava{
+    margin-left: 15px;
+}
+.line ul{
+    position: absolute;
+    top: 745px;
+    left: 71px;
+}
+.feddInnerBoxes h2{
+    font-size: 14px;
+}
+.feddInnerBoxes p{
+    font-size: 10px;
+}
+.feedInnerBox2 {
+    height: 200px;
+    overflow-y: auto;
+}
+.mainBoxDetails p {
+    font-size: 10px;
+}
+.feedImgLine ul{
+    position: absolute;
+        top: 972px;
+        left: 81px;
+}
+.left-card-text h2{
+    font-size: 8px;
+}
+.top-container-avatar-right ul{
+    display: flex;
+
+}
+
+.profileMainBody {
+    width: 100%;
+}
+.bannerContainer {
+    width: 100%;
+}
+.bannerAvatar {
+    position: absolute;
+    left: 41%;
+    top: 141px;
+}
+.arrowIcon {
+    display: flex;
+    justify-content: end;
+    margin-right: 14px;
+    padding-top: 9px;
+}
+.buttons {
+    display: none;
+}
+}
