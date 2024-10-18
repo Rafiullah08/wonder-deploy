@@ -117,7 +117,7 @@ text-decoration: none;
 .login-btn p{
     margin-top: 35px;
     color: #ffffff;
-    font-family: "Inter", sans-serif;
+    
 font-size: 16px;
 font-weight: 400;
 line-height: 19.36px;
@@ -165,7 +165,6 @@ font-weight: 400;
 line-height: 30px;
 text-align: center;
 
-
 }
 
 .text1 a{
@@ -177,9 +176,13 @@ text-align: center;
     font-size: 15px;
     font-weight: 700;
     line-height: 30px;
- 
-
 }
+
+.text1 span:hover{
+    font-size: 17px;
+/* transition: 0.5s; */
+}
+
 .text2{
     margin-top: 75px;
     font-family: "Inter", sans-serif;
@@ -192,13 +195,17 @@ text-align: center;
     
 }
 
-.text2 span{
+.text2 span {
     font-family: "Inter", sans-serif;
 font-size: 16px;
 font-weight: 700;
 line-height: 19.36px;
 
 
+}
+.text2 span a{
+text-decoration: none;
+color: #ffffff;
 }
 
 /* ///registration css */
