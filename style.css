@@ -37,12 +37,11 @@ font-weight: 700;
 }
 
 .heading h3{
-font-size: 43px;
+font-size: 40px;
 font-weight: 700;
-/* line-height: 128.95px; */
 text-align: center;
 color: #ffffff;
-
+padding-top: 10px;
 }
 .heading p{
 
@@ -109,6 +108,11 @@ text-decoration: none;
    cursor: pointer;
 }
 
+.login-btn button:hover{
+    background-color: rgb(40, 40, 100);
+    transition: 0.5s;
+}
+
 
 .login-btn p{
     margin-top: 35px;
@@ -143,6 +147,12 @@ line-height: 38.69px;
 text-align: left;
 align-items: center;
     cursor: pointer;
+}
+
+.login-with-google:hover {
+    background-color: rgb(40, 40, 100);
+    transition: 0.5s;
+    color: #ffffff;
 }
 
 
@@ -270,6 +280,8 @@ padding: 100px 0;
     border-radius: 8px;
     border-radius: 0px 0px 10px #000000;
     opacity: 0px;
+    padding-top: 10px;
+    font-family: Inknut Antiqua;
 }
 
 .newPassInput input{
@@ -371,9 +383,15 @@ font-family: "Inter", sans-serif;
 font-size: 14px;
 font-weight: 700;
 line-height: 16.94px;
-
+cursor: pointer;
 
 }
+
+.btn1 button:hover{
+    background-color: rgb(40, 40, 100);
+    transition: 0.5s;
+}
+
 
 .btn2 button{
     width: 142px;
@@ -386,8 +404,14 @@ font-family: "Inter", sans-serif;
 font-size: 14px;
 font-weight: 700;
 line-height: 16.94px;
+cursor: pointer;
 }
 
+.btn2 button:hover{
+    background-color: rgb(40, 40, 100);
+    transition: 0.5s;
+    color: #ffffff;
+}
 /* otp section */
 
 .otp-container{
@@ -433,8 +457,16 @@ border: 2px solid #916a6a;
 margin-top: 30px;
 
 }
+.box1 input{
+    width: 100%;
+    background-color: #3A3A70;
+    border: none;
+}
+.box1 input:focus{
+    outline: none;
+}
 
-.box1 p{
+.box1 input{
     text-align: center;
     color: #ffffff;
     font-family: "Inter", sans-serif;
@@ -459,8 +491,12 @@ color: #ffffff;
 font-size: 14px;
 font-weight: 700;
 line-height: 36.11px;
+cursor: pointer;
+}
 
-
+.otp-btn button:hover{
+    background-color: rgb(40, 40, 100);
+    transition: 0.5s;
 }
 
 
